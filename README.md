@@ -6,3 +6,4 @@ Q Learning is a Reinforcement Learning technique in which an agent learns by exp
               Q(state,action) = Q(state,action) + alpha(reward + gamma(max(next_state,action)) - Q(state,action))
 alpha -> Learning Rate
 gamma -> Discount Factor (Balances future vs immediate reward)
+See the Grid world at grid.png
